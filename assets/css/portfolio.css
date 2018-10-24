@@ -2,8 +2,6 @@
     box-sizing: border-box;
 }
 
-
-
 body {
     background-color: #d3d3d0;
     font-style: Georgia,"Times New Roman",Times,serif;
@@ -11,8 +9,8 @@ body {
     margin: 0;
     padding: 0;
     width: auto;
+    height: auto;
     height: 507px;
-    
 }
 
 .header {
@@ -38,7 +36,7 @@ body {
 
 li {
     display: inline;
-    
+
 }
 
 a {
@@ -47,39 +45,37 @@ a {
     padding: 20px;
    
 }
+
+.photos {
+    
+}
+
 #about {
-     font-size: 30px;
-     color: rgb(55, 55, 199);
+    font-size: 30px;
+    color: rgb(55, 55, 199);
 }
 
 #name {
-    font-size: 35px;
-    font-color: white;
-    padding: 20px;
-    float: left;
+   font-size: 35px;
+   font-color: white;
+   padding: 20px;
+   float: left;
 }
-
-
 .main {
-    float: left;
-    min-height: 100%;
-    width: 33%;
-    padding: 10px;
-    padding-bottom: 30px;
-    margin-top: 0;
-   
+   float: left;
+   width: 33%;
+   padding: 10px;
+   margin-top 5px;
 }
-
-
 
 #bio-image {
-    border: 2px solid rgb(55, 55, 199);
+   border: 2px solid rgb(55, 55, 199);
 }
 
 #main-bio {
-   width: 33%;
-   float: left;
-   margin-top: 50px;
+  width: 33%;
+  float: left;
+  margin-top: 50px;
 }
 
 

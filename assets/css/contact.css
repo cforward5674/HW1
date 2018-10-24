@@ -3,16 +3,14 @@
 }
 
 
-
 body {
     background-color: #d3d3d0;
     font-style: Georgia,"Times New Roman",Times,serif;
     color: #333333;
     margin: 0;
     padding: 0;
-    width: auto;
-    height: 507px;
-    
+    width: 960px;
+   height: 507px;
 }
 
 .header {
@@ -22,7 +20,7 @@ body {
     text-align: left;
     height: 125px;
     padding: 0x;
-    width: 100%;
+    width: 960px;
     float: left;
     border-bottom: 3px solid rgb(211, 190, 7);
 }
@@ -47,48 +45,46 @@ a {
     padding: 20px;
    
 }
-#about {
-     font-size: 30px;
-     color: rgb(55, 55, 199);
-}
 
 #name {
     font-size: 35px;
-    font-color: white;
+    color: white;
     padding: 20px;
     float: left;
 }
 
+#contact {
+    clear: both;S
+    font-size: 30px;
+    color: rgb(55, 55, 199);
+}
+
+.background {
+    background-color: gray;
+    width: 960px;
+}
 
 .main {
-    float: left;
-    min-height: 100%;
-    width: 33%;
-    padding: 10px;
-    padding-bottom: 30px;
-    margin-top: 0;
+    
+        background-color: white;
+        height: 582px;
+        width: 441px;
+        padding: 10px;
+        /* padding-top: 30px; */
+        padding-bottom: 30px;
+        /* padding-top: 45px; */
+        margin-left: 396px;
+        /* margin-right: 230px; */
+    }
    
 }
-
-
-
-#bio-image {
-    border: 2px solid rgb(55, 55, 199);
-}
-
-#main-bio {
-   width: 33%;
-   float: left;
-   margin-top: 50px;
-}
-
 
 .footer {
     clear: both;
     background-color: #333333;
     margin-top: 50px;
-    padding: 20px;
-    height: 90px;
+    padding: 0px;
+    height: 40px;
     border-top: 3px solid rgb(211, 190, 7);
     
 }
