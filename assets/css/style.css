@@ -59,7 +59,6 @@ a:active {
 .container {
     height: 583px;
 }
-
 #about {
     font-family: 'Work Sans', sans-serif;
     color: rgb(98, 98, 209);
@@ -76,9 +75,7 @@ img {
 
 .main {
     float: left;
-    height: 300px;
-    width: 18%;
-    padding: 15px;
+   
    
     margin: 10px;
     background-color: purpl
