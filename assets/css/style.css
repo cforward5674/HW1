@@ -2,8 +2,6 @@
     box-sizing: border-box;
 }
 
-
-
 body {
     background-color: #d3d3d0;
     font-style: Georgia,"Times New Roman",Times,serif;
@@ -11,8 +9,7 @@ body {
     margin: 0;
     padding: 0;
     width: auto;
-    height: 507px;
-    
+    height: auto;
 }
 
 .header {
@@ -20,20 +17,25 @@ body {
     color: #eee;
     font-size: 40px;
     text-align: left;
-    height: 125px;
+    height: 155px;
     padding: 0x;
     width: 100%;
     float: left;
     border-bottom: 3px solid rgb(211, 190, 7);
 }
 
-.navigation {
-    
+h1 {
+   margin-left: 10px;
+    margin-top: 55px;
+}
+
+.nav {
     font-size: 24px;
     padding: 0;
-    margin-top: 65px;
+    margin-top: 20px;
     margin-right: 10px;
     float: right;
+    background-color: pink;
 }
 
 li {
@@ -42,44 +44,46 @@ li {
 }
 
 a {
+
     margin-top: 10px;
     color: rgb(211, 190, 7);
     padding: 20px;
-   
 }
+
+a:active{
+    color: rgb(211, 190, 7);
+}
+
+.container {
+    height: 583px;
+}
+
 #about {
-     font-size: 30px;
-     color: rgb(55, 55, 199);
-}
-
-#name {
+    color: white;
     font-size: 35px;
-    font-color: white;
-    padding: 20px;
-    float: left;
+    margin: 3px;
+    margin-left: -20px;
+    padding: 10px;
+   background-color: yellow;
 }
-
 
 .main {
     float: left;
-    min-height: 100%;
-    width: 33%;
-    padding: 10px;
-    padding-bottom: 30px;
-    margin-top: 0;
+    height: 300px;
+    width: 18%;
+    padding: 23px;
    
+    margin: 10px;
+    background-color: purple;
 }
 
-
-
-#bio-image {
-    border: 2px solid rgb(55, 55, 199);
-}
-
-#main-bio {
-   width: 33%;
-   float: left;
-   margin-top: 50px;
+.main-bio {
+    
+        width: 80%;
+        float: left;
+        margin-top:10px;
+        height: 300px;
+        background-color: orange;
 }
 
 
@@ -90,5 +94,4 @@ a {
     padding: 20px;
     height: 90px;
     border-top: 3px solid rgb(211, 190, 7);
-    
 }

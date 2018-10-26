@@ -10,7 +10,6 @@ body {
     padding: 0;
     width: auto;
     height: auto;
-    height: 507px;
 }
 
 .header {
@@ -18,66 +17,73 @@ body {
     color: #eee;
     font-size: 40px;
     text-align: left;
-    height: 125px;
+    height: 155px;
     padding: 0x;
     width: 100%;
     float: left;
     border-bottom: 3px solid rgb(211, 190, 7);
 }
 
-.navigation {
-    
+h1 {
+   margin-left: 10px;
+    margin-top: 55px;
+}
+
+.nav {
     font-size: 24px;
     padding: 0;
-    margin-top: 65px;
+    margin-top: 20px;
     margin-right: 10px;
     float: right;
+    background-color: pink;
 }
 
 li {
     display: inline;
-
+    
 }
 
 a {
     margin-top: 10px;
     color: rgb(211, 190, 7);
     padding: 20px;
-   
 }
 
-.photos {
-    
+.container {
+    height: 583px;
 }
 
 #about {
-    font-size: 30px;
-    color: rgb(55, 55, 199);
+    color: white;
+    font-size: 35px;
+    margin: 3px;
+    margin-left: -20px;
+    padding: 10px;
+   background-color: yellow;
 }
 
-#name {
-   font-size: 35px;
-   font-color: white;
-   padding: 20px;
-   float: left;
-}
 .main {
-   float: left;
-   width: 33%;
-   padding: 10px;
-   margin-top 5px;
+    float: left;
+    height: 300px;
+    width: 18%;
+    padding: 23px;
+   
+    margin: 10px;
+    background-color: purple;
 }
 
-#bio-image {
-   border: 2px solid rgb(55, 55, 199);
+.main-bio {
+    
+        width: 80%;
+        float: left;
+        margin-top:10px;
+        height: 300px;
+        background-color: orange;
 }
 
-#main-bio {
-  width: 33%;
-  float: left;
-  margin-top: 50px;
-}
+img {
 
+}
 
 .footer {
     clear: both;
@@ -86,5 +92,4 @@ a {
     padding: 20px;
     height: 90px;
     border-top: 3px solid rgb(211, 190, 7);
-    
 }
