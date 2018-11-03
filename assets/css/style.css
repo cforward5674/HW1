@@ -100,3 +100,9 @@ img {
     height: 90px;
     border-top: 1.5px solid #2c567b;
 }
+
+@media screen  {
+    background-color: #333;
+    max-width: 768px;
+    margin: 0 auto;
+  }
